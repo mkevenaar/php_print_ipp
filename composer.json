@@ -1,0 +1,7 @@
+{
+    "name": "stiwl/php_print_ipp",
+    "description": "Library to send by php to printer ip local or server",
+    "require": {
+        "php": ">=5.5.18"
+    }
+}
