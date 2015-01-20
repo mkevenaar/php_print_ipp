@@ -18,6 +18,12 @@
     "require": {
         "php": ">=5.5.18"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:luisansal_hunter/php_print_ipp.git"
+        }
+    ],
     "target-dir": "Stiwl/PhpPrintIpp",
     "extra": {
         "branch-alias": {
