@@ -24,9 +24,8 @@ error_reporting(E_ALL|E_STRICT);
 //function __autoload($class_name) {
 //    require_once "../../lib/$class_name.php";
 //}
-
+//var_dump(get_declared_classes());
 $ipp = new CupsPrintIPP();
-
 $ipp->setHost($host);
 $ipp->setPrinterURI($printer_uri);
 
