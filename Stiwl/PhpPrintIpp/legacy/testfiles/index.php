@@ -1,19 +1,10 @@
 <?php
-//
-//require_once('PrintIPP.php');
-//
-//$ipp = new PrintIPP();
-//
-//$ipp->setHost("172.16.1.64");
-//$ipp->setPrinterURI("/l_general_mb780_01");
-//$ipp->setData("C:\\WT-NMP\\WWW\\php_print_ipp\\test.txt"); // Path to file.
-//
-////var_dump(file_exists("C:\\WT-NMP\\WWW\\php_print_ipp\\test.txt"));
-//$ipp->printJob();
+
+require_once('../../../../vendor/autoload.php');
+
+use Stiwl\PhpPrintIpp\Lib\CupsPrintIPP;
 
 /* printing an utf-8 file, two-sided, two pages per sheet */
-
-
 $host = "172.16.1.232"; // set serve'rs host here
 $ssl = false; // enable ssl if true
 $printer_uri = "ipp://172.1.16.64/l_general_mb780_01"; // set printer uri here
@@ -30,9 +21,9 @@ error_reporting(E_ALL|E_STRICT);
  * END OF SETUP
  *
  *******************/
-function __autoload($class_name) {
-    require_once "../../lib/$class_name.php";
-}
+//function __autoload($class_name) {
+//    require_once "../../lib/$class_name.php";
+//}
 
 $ipp = new CupsPrintIPP();
 
@@ -40,7 +31,7 @@ $ipp->setHost($host);
 $ipp->setPrinterURI($printer_uri);
 
 $ipp->getPrinterAttributes();
-var_dump($ipp->printer_attributes);
+//var_dump($ipp->printer_attributes);
 
 
 $ipp->debug_level = 5; // Debugging very verbose
