@@ -1,5 +1,5 @@
 {
-    "name": "stiwl/php_print_ipp",
+    "name": "stiwl/php-print-ipp",
     "description": "Library to send by php to printer ip local or server",
     "keywords": ["printer", "ip"],
     "license": "MIT",
