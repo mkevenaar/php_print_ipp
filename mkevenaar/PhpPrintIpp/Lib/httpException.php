@@ -64,9 +64,9 @@
  * httpException class
  *
  ************************/
-namespace Stiwl\PhpPrintIpp\Lib;
+namespace mkevenaar\PhpPrintIpp\Lib;
 
-use Stiwl\PhpPrintIpp\Lib\ippException;
+use mkevenaar\PhpPrintIpp\Lib\ippException;
 
 class httpException extends ippException
 {

@@ -1,7 +1,7 @@
 <?php
-namespace Stiwl\PhpPrintIpp\Lib;
+namespace mkevenaar\PhpPrintIpp\Lib;
 
-use Stiwl\PhpPrintIpp\Lib\httpException;
+use mkevenaar\PhpPrintIpp\Lib\httpException;
 
 /***********************
  *

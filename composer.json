@@ -1,5 +1,5 @@
 {
-    "name": "stiwl/php-print-ipp",
+    "name": "mkevenaar/php-print-ipp",
     "description": "Library to send by php to printer ip local or server",
     "keywords": ["printer", "ip"],
     "license": "MIT",
@@ -12,11 +12,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
-            "Stiwl\\PhpPrintIpp": ""
+            "mkevenaar\\PhpPrintIpp": ""
         }
     },
     "require": {
-        "php": ">=5.5.12"
+        "php": ">=8.0",
+        "ext-gettext": "*"
     },
     "target-dir": "",
     "extra": {

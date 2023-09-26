@@ -43,9 +43,9 @@
 
 //require_once("PrintIPP.php");
 
-namespace Stiwl\PhpPrintIpp\Lib;
+namespace mkevenaar\PhpPrintIpp\Lib;
 
-use Stiwl\PhpPrintIpp\Lib\PrintIPP;
+use mkevenaar\PhpPrintIpp\Lib\PrintIPP;
 
 class ExtendedPrintIPP extends PrintIPP
 {

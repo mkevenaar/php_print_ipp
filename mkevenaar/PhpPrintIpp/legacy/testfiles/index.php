@@ -2,7 +2,7 @@
 
 require_once('../../../../vendor/autoload.php');
 
-use Stiwl\PhpPrintIpp\Lib\CupsPrintIPP;
+use mkevenaar\PhpPrintIpp\Lib\CupsPrintIPP;
 
 /* printing an utf-8 file, two-sided, two pages per sheet */
 $host = "172.16.1.232"; // set serve'rs host here

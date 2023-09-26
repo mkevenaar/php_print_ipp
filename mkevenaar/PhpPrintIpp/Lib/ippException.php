@@ -37,7 +37,7 @@
  */
 
 //require_once ("http_class.php");
-namespace Stiwl\PhpPrintIpp\Lib;
+namespace mkevenaar\PhpPrintIpp\Lib;
 
 class ippException extends \Exception
 {

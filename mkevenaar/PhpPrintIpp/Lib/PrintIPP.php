@@ -42,9 +42,9 @@
 
 //require_once("BasicIPP.php");
 
-namespace Stiwl\PhpPrintIpp\Lib;
+namespace mkevenaar\PhpPrintIpp\Lib;
 
-use Stiwl\PhpPrintIpp\Lib\BasicIpp;
+use mkevenaar\PhpPrintIpp\Lib\BasicIpp;
 
 class PrintIPP extends BasicIPP
 {

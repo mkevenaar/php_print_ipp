@@ -1,7 +1,7 @@
 <?php
-namespace Stiwl\PhpPrintIpp\Lib;
+namespace mkevenaar\PhpPrintIpp\Lib;
 
-use Stiwl\PhpPrintIpp\Lib\httpClass;
+use mkevenaar\PhpPrintIpp\Lib\httpClass;
 
 class BasicIPP
 {

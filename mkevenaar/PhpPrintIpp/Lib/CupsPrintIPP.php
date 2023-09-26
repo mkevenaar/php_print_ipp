@@ -37,9 +37,9 @@
 */
 
 //require_once("ExtendedPrintIPP.php");
-namespace Stiwl\PhpPrintIpp\Lib;
+namespace mkevenaar\PhpPrintIpp\Lib;
 
-use Stiwl\PhpPrintIpp\Lib\ExtendedPrintIPP;
+use mkevenaar\PhpPrintIpp\Lib\ExtendedPrintIPP;
 
 class CupsPrintIPP extends ExtendedPrintIPP
 {
